@@ -35,7 +35,7 @@ function pow(a, b) {
 function sqrt(a){
 
     return Math.sqrt(a);
-
+    //Calcula el cuadrado de un número
 }
 
 module.exports = fns;
