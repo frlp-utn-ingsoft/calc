@@ -6,27 +6,23 @@ const readline = require("readline").createInterface({
 });
 
 function loop() {
-    let exit = false;
-
-    while (!exit) {
-        readline.question(
-            "Ingrese función (sum, res, mul, div, pow, exit): ",
-            (fnName) => {
-                if (fnName === "exit") {
-                    console.log("👋👋👋");
-                    readline.close();
-                    exit = true;
-                    return;
-                }
-
-                const fn = fns[fnName];
-
-                readline.question("Ingrese 2 numeros: ", (numbers) => {
-                    const [a, b] = numbers.split(" ").map(Number);
-                });
+    readline.question(
+        "Ingrese función (sum, res, mul, div, pow, exit): ",
+        (fnName) => {
+            if (fnName === "exit") {
+                console.log("👋👋👋");
+                return readline.close();
             }
-        );
-    }
+
+            const fn = fns[fnName];
+
+            readline.question("Ingrese 2 numeros: ", (numbers) => {
+                const [a, b] = numbers.split(" ").map(Number);
+                console.log(fn(a, b));
+                loop();
+            });
+        }
+    );
 }
 
 loop();
