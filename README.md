@@ -1,6 +1,6 @@
 # Calc
 Integrantes del grupo:
-Rodrigo Miguel
+Rodrigo Miguel 
 
 
 Calculadora con funciones simples.
@@ -17,3 +17,4 @@ npm run start
 # correr los test
 npm run test
 ```
+(prueba branch)
