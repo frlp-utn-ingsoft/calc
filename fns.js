@@ -4,6 +4,7 @@ const fns = {
     mul,
     div,
     pow,
+    sqrt,
 };
 
 function sum(a, b) {
@@ -17,7 +18,7 @@ function res(a, b) {
 }
 
 function mul(a, b) {}
-
+    return a * b
 function div(a, b) {
     // Tener en cuenta division por 0
     // Si b es 0 retornar "Error: div by 0"
@@ -27,6 +28,12 @@ function pow(a, b) {
 
     return Math.pow(a, b);
        
+}
+
+function sqrt(a){
+
+    return Math.sqrt(a);
+
 }
 
 module.exports = fns;

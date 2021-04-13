@@ -1,4 +1,7 @@
 # Calc
+Integrantes del grupo:
+Rodrigo Miguel
+
 
 Calculadora con funciones simples.
 
