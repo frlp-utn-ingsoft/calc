@@ -17,6 +17,6 @@ npm run test
 
 ## Integrantes
 
-- Tomas Uturriague
+- Tomas Uthurriague
 - Francisco Etcheverri
 - Didier Brusa
