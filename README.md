@@ -1,4 +1,7 @@
 # Calc
+Integrantes del grupo:
+Rodrigo Miguel 
+Carolina Magro
 
 Calculadora con funciones simples.
 
@@ -14,3 +17,4 @@ npm run start
 # correr los test
 npm run test
 ```
+(prueba branch)
