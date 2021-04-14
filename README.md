@@ -1,7 +1,7 @@
 # Calc
 Integrantes del grupo:
 Rodrigo Miguel 
-
+Carolina Magro
 
 Calculadora con funciones simples.
 
