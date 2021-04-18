@@ -12,7 +12,9 @@ function sum(a, b) {
 
 // Completar estas funciones
 
-function res(a, b) {}
+function res(a, b) {
+	return a - b;
+}
 
 function mul(a, b) {}
 
@@ -21,6 +23,8 @@ function div(a, b) {
     // Si b es 0 retornar "Error: div by 0"
 }
 
-function pow(a, b) {}
+function pow(a, b) {
+	return Math.pow(a, b)
+}
 
 module.exports = fns;
