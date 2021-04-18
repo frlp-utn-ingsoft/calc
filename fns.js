@@ -23,6 +23,8 @@ function div(a, b) {
     // Si b es 0 retornar "Error: div by 0"
 }
 
-function pow(a, b) {}
+function pow(a, b) {
+	return Math.pow(a, b)
+}
 
 module.exports = fns;
