@@ -12,7 +12,9 @@ function sum(a, b) {
 
 // Completar estas funciones
 
-function res(a, b) {}
+function res(a, b) {
+	return a - b;
+}
 
 function mul(a, b) {}
 
