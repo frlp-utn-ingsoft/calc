@@ -7,7 +7,7 @@ const readline = require("readline").createInterface({
 
 function loop() {
     readline.question(
-        "Ingrese función (sum, res, mul, div, pow, exit): ",
+        "Ingrese función (sum, res, mul, div, pow, raiz, exit): ",
         (fnName) => {
             if (fnName === "exit") {
                 console.log("👋👋👋");

@@ -4,6 +4,7 @@ const fns = {
     mul,
     div,
     pow,
+    raiz,
 };
 
 function sum(a, b) {
@@ -25,13 +26,17 @@ function div(a, b) {
         return a / b;
     }
     else {
-        return "Error: div by 0"
+        return "Error: div by 0 "
     }
        
 }
 
 function pow(a, b) {
     return a ** b
+}
+
+function raiz(a, b) {
+    return Math.pow(a, 1/b)
 }
 
 module.exports = fns;
