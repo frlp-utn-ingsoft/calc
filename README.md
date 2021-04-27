@@ -14,3 +14,9 @@ npm run start
 # correr los test
 npm run test
 ```
+
+## Integrantes
+
+- Tomas Uthurriague
+- Francisco Etcheverri
+- Didier Brusa
