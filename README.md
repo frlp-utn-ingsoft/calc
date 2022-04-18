@@ -2,6 +2,7 @@
 
 Calculadora con funciones simples.
 
+Integrantes : Manuel Robles
 ## Comandos
 
 ```bash
