@@ -1,3 +1,5 @@
+#Jimena Piedrabuena
+#Grupo
 # Calc
 
 Calculadora con funciones simples.
